@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/RanjeetRaj444/jsonfileLive/issues"
   },
-  "homepage": "https://github.com/RanjeetRaj444/jsonfileLive#readme"
+  "homepage": "https://github.com/RanjeetRaj444/jsonfileLive#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
+  }
 }
